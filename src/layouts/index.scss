@@ -1,6 +1,16 @@
 $variable-columns: false;
 @import "~bulma/bulma";
 
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .site-footer {
+    flex: 1;
+  }
+
 // html {
 //     font-family: sans-serif;
 //     -ms-text-size-adjust: 100%;
