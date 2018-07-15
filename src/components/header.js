@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import * as utils from './utils'
+import logo from "./logo.png";
 
 
 const Header = ({ siteTitle }) => (
@@ -14,7 +15,8 @@ const Header = ({ siteTitle }) => (
   <nav className="navbar is-transparent">
   <div className="navbar-brand">
     <a className="navbar-item" href="/">
-      <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+      <img src={logo} alt="AAsia Travel" width="30" height="30" />
+      <p style={{marginLeft: 10, color: 'red'}}>AAsia Travel</p>
     </a>
     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
       <span></span>
@@ -33,17 +35,14 @@ const Header = ({ siteTitle }) => (
           Services
         </a>
         <div className="navbar-dropdown is-boxed">
-          <a className="navbar-item" href="/about/">
+          <a className="navbar-item" href="/attractions/">
             Attractions
           </a>
-          <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-            Modifiers
+          <a className="navbar-item" href="/transfer/">
+            Transfers
           </a>
-          <a className="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-            Columns
-          </a>
-          <a className="navbar-item" href="https://bulma.io/documentation/layout/container/">
-            Layout
+          <a className="navbar-item" href="/guides">
+            Guides
           </a>
           
         </div>
@@ -53,18 +52,17 @@ const Header = ({ siteTitle }) => (
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="field is-grouped">
-        <a className="navbar-item" href="/contact">
+        <a className="navbar-item" href="/blog">
+            Blog
+          </a>
+          <a className="navbar-item" href="/about">
             About
           </a>
-          <p className="control">
           
           <a className="navbar-item" href="/contact">
             Contact
           </a>
-          </p>
-          <p className="control">
-            
-          </p>
+        
         </div>
       </div>
     </div>
