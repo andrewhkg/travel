@@ -5,6 +5,4 @@ title: Attractions in Hong Kong
 ---
 Attractions!!!!!
 
-
-
-![](/assets/calpe-sea.jpeg)
+![null](/assets/calpe-sea.jpeg)
