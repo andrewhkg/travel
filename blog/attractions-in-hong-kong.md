@@ -3,6 +3,6 @@ path: today
 date: '2018-07-18'
 title: Attractions in Hong Kong
 ---
-Attractions!!!!!
+![Sea](/assets/calpe-sea.jpeg)
 
-![null](/assets/calpe-sea.jpeg)
+Attractions!!!!!
