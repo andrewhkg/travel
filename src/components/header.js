@@ -27,9 +27,26 @@ const Header = ({ siteTitle }) => (
 
   <div id="navbarExampleTransparentExample" className="navbar-menu">
     <div className="navbar-start">
-      <a className="navbar-item" href="/">
+      {/* <a className="navbar-item" href="/">
         Home
-      </a>
+      </a> */}
+      <div className="navbar-item has-dropdown is-hoverable">
+        <a className="navbar-link" href="/documentation/overview/start/">
+          Destinations
+        </a>
+        <div className="navbar-dropdown is-boxed">
+          <a className="navbar-item" href="/hongkong/">
+            Hong Kong
+          </a>
+          <a className="navbar-item" href="/macao/">
+            Macao
+          </a>
+          <a className="navbar-item" href="/Russia">
+            Russia
+          </a>
+          
+        </div>
+      </div>
       <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link" href="/documentation/overview/start/">
           Services
@@ -52,9 +69,9 @@ const Header = ({ siteTitle }) => (
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="field is-grouped">
-        <a className="navbar-item" href="/blog">
+        {/* <a className="navbar-item" href="/blog">
             Blog
-          </a>
+          </a> */}
           <a className="navbar-item" href="/about">
             About
           </a>

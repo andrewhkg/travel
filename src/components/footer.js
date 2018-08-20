@@ -9,7 +9,7 @@ const Footer = ({ siteTitle }) => (
         <div className="content has-text-centered">
             <p>
             <strong>AAsia Travel</strong> <br />
-            The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">AT</a>.
+            The website content is licensed.
             </p>
         </div>
         </footer>
