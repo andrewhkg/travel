@@ -61,6 +61,9 @@ const Header = ({ siteTitle }) => (
           <a className="navbar-item" href="/guides">
             Guides
           </a>
+          <a className="navbar-item" href="/privatejet">
+            Privat Jet
+          </a>
           
         </div>
       </div>
