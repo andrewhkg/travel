@@ -12,7 +12,7 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'AAsia Travel', content: 'Travel company, tickets for attarctions, tour guided excurtions' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
@@ -20,7 +20,7 @@ const Layout = ({ children, data }) => (
     <div className='site-footer'
       style={{
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 360,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
