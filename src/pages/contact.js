@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './contact.scss'
+// import './contact.scss'
 
 const Contact = () => (
   <div>
@@ -14,6 +14,7 @@ const Contact = () => (
     
     <br/>
     <hr/>
+    
     <form name="contact-form" 
           method="post" 
           data-netlify="true" 
@@ -21,33 +22,24 @@ const Contact = () => (
   {/* <input name="form-name" value="contact" /> */}
   <p>
     <label>Your Name: 
-      <input class="input is-rounded" type="text" name="name" />
+      <input className="input is-rounded" type="text" name="name" size="35"/>
     </label>   
   </p>
   <p>
     <label>Your Email: 
-      <input type="email" name="email" />
+      <input className="input is-rounded" type="email" name="email" size="35" />
     </label>
   </p>
   
   <p>
-    <div class="field">
-  <label class="label">Message</label>
-  <div class="control">
-    <textarea class="textarea" placeholder="Your message"></textarea>
-  </div>
-</div>
-
-    {/* <label>Message: 
-      <textarea rows="4" cols="50" name="message"></textarea
-      ></label> */}
+    <label>Message: 
+      <textarea className="input" rows="4" cols="50" name="message"></textarea>
+    </label>
   </p>
-  <div class="control">
-    <button class="button is-link">Submit</button>
-  </div>
-  {/* <p>
+  
+  <p>
     <button type="submit">Send</button>
-  </p> */}
+  </p>
   
 </form>
 
