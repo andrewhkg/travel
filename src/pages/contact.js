@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-// import './contact.scss'
 
 const Contact = () => (
   <div>
@@ -33,12 +32,12 @@ const Contact = () => (
   
   <p>
     <label>Message: 
-      <textarea className="input" rows="4" cols="50" name="message"></textarea>
+      <textarea className="textarea" rows="4" cols="50" name="message"></textarea>
     </label>
   </p>
-  
+  <br/>
   <p>
-    <button type="submit">Send</button>
+    <button className="button is-link" type="submit">Send</button>
   </p>
   
 </form>
