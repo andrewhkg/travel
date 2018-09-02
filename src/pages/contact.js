@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import './contact.scss'
 
 const Contact = () => (
   <div>
@@ -17,10 +18,10 @@ const Contact = () => (
           method="post" 
           data-netlify="true" 
           data-netlify-honeypot="bot-field">
-  <input name="form-name" value="contact" />
+  {/* <input name="form-name" value="contact" /> */}
   <p>
     <label>Your Name: 
-      <input type="text" name="name" />
+      <input class="input is-rounded" type="text" name="name" />
     </label>   
   </p>
   <p>
@@ -30,13 +31,23 @@ const Contact = () => (
   </p>
   
   <p>
-    <label>Message: 
-      <textarea name="message"></textarea
-    ></label>
+    <div class="field">
+  <label class="label">Message</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Your message"></textarea>
+  </div>
+</div>
+
+    {/* <label>Message: 
+      <textarea rows="4" cols="50" name="message"></textarea
+      ></label> */}
   </p>
-  <p>
+  <div class="control">
+    <button class="button is-link">Submit</button>
+  </div>
+  {/* <p>
     <button type="submit">Send</button>
-  </p>
+  </p> */}
   
 </form>
 
