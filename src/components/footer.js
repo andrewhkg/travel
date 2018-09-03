@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import logo from "./logo.png"
-import { FaFacebookF } from "react-icons/fa"
-import { FaTwitterSquare } from "react-icons/fa"
-import { FaInstagram } from 'react-icons/fa'
-import { faVk } from 'react-icons/fa'
+// import { FaFacebookF } from "react-icons/fa"
+// import { FaTwitterSquare } from "react-icons/fa"
+// import { FaInstagram } from 'react-icons/fa'
 
 
 const Footer = ({ siteTitle }) => (
@@ -16,7 +15,7 @@ const Footer = ({ siteTitle }) => (
             The website content is licensed.
             </p>
             
-            <div className="columns level-item">
+            {/* <div className="columns level-item">
               <ul style={{display: "flex"}}>
               <li className="column"><Link to="/"></Link></li> 
 
@@ -24,14 +23,13 @@ const Footer = ({ siteTitle }) => (
                 <li className="column"><Link to="/"><FaTwitterSquare /></Link></li> 
                 <li className="column"><Link to="/"><FaInstagram /></Link></li> 
                 <li className="column"><Link to="/"><faVk /></Link></li> 
-                <i className="fab fa-vk"></i>
                 <li className="column"><Link to="/"></Link></li> 
               </ul>
                
                
                
 
-            </div>
+            </div> */}
         </div>
         </footer>
     </div>
