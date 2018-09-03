@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Andrew <info@aasia.hk>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/react-fontawesome": "^0.1.2",
     "bulma": "^0.7.1",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.40",
