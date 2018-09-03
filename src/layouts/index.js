@@ -29,9 +29,6 @@ const Layout = ({ children, data }) => (
     </div>
    
     <Footer />
-    <span className="icon">
-  <i className="fas fa-home"></i>
-</span>
     
   </div>
 )
