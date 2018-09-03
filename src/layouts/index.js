@@ -20,7 +20,7 @@ const Layout = ({ children, data }) => (
     <div className='site-footer'
       style={{
         margin: '0 auto',
-        maxWidth: 760,
+        maxWidth: 360,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
@@ -29,6 +29,7 @@ const Layout = ({ children, data }) => (
     </div>
    
     <Footer />
+   
     
   </div>
 )
