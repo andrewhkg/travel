@@ -24,7 +24,7 @@ const Footer = ({ siteTitle }) => (
                 <li className="column"><Link to="/"><FaTwitterSquare /></Link></li> 
                 <li className="column"><Link to="/"><FaInstagram /></Link></li> 
                 <li className="column"><Link to="/"><faVk /></Link></li> 
-                <i class="fab fa-vk"></i>
+                <i className="fab fa-vk"></i>
                 <li className="column"><Link to="/"></Link></li> 
               </ul>
                
