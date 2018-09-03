@@ -9,9 +9,12 @@ $variable-columns: false;
   
   .site-footer {
     flex: 1;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
   }
 
+  .footer {
+    background-color: #fafafa;
+}
 // html {
 //     font-family: sans-serif;
 //     -ms-text-size-adjust: 100%;
