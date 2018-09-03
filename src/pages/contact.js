@@ -37,7 +37,7 @@ const Contact = () => (
   </p>
   <br/>
   <p>
-    <button className="button is-link" type="submit">Send</button>
+    <button className="button is-link is-success is-outlined" type="submit">Send</button>
   </p>
   
 </form>

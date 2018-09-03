@@ -13,7 +13,7 @@ const Layout = ({ children, data }) => (
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'AAsia Travel', content: 'Travel company, tickets for attarctions, tour guided excurtions' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'keywords', content: 'attractions, tours, guides, transfer' },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
