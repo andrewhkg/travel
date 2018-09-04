@@ -26,7 +26,7 @@ const Layout = ({ children, data }) => (
     <div className='site-footer'
       style={{
         margin: '0 auto',
-        maxWidth: 360,
+        maxWidth: 860,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
